@@ -10,11 +10,11 @@
     <title>Gentelella Alela! | </title>
 
     <!-- Bootstrap -->
-    <link href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="/webjars/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/webjars/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="/webjars/nprogress/0.2.0/nprogress.css" rel="stylesheet">
+    <link href="/webjars/nprogress/nprogress.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
     <link href="/css/custom.min.css" rel="stylesheet">
@@ -32,16 +32,7 @@
                 <div class="clearfix"></div>
 
                 <!-- menu profile quick info -->
-                <div class="profile clearfix">
-                    <div class="profile_pic">
-                        <img src="/images/img.jpg" alt="..." class="img-circle profile_img">
-                    </div>
-                    <div class="profile_info">
-                        <span>Welcome,</span>
-                        <h2>John Doe</h2>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
+                <div data-th-replace="fragments/fragments-menu-profile-quick-info :: menu-profile-quick-info"></div>
                 <!-- /menu profile quick info -->
 
                 <br />
@@ -332,13 +323,13 @@
 </div>
 
 <!-- jQuery -->
-<script src="/webjars/jquery/2.2.3/jquery.min.js"></script>
+<script src="/webjars/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
-<script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 <!-- FastClick -->
-<script src="/webjars/fastclick/1.0.6/fastclick.js"></script>
+<script src="/webjars/fastclick/fastclick.js"></script>
 <!-- NProgress -->
-<script src="/webjars/nprogress/0.2.0/nprogress.js"></script>
+<script src="/webjars/nprogress/nprogress.js"></script>
 
 <!-- Custom Theme Scripts -->
 <script src="/js/custom.min.js"></script>

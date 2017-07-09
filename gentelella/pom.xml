@@ -68,6 +68,11 @@
             <artifactId>fastclick</artifactId>
             <version>1.0.6</version>
         </dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>webjars-locator</artifactId>
+			<version>0.30</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
